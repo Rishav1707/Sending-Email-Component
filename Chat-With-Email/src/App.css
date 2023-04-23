@@ -86,7 +86,11 @@ button:focus {
 }
 
 /* Media queries */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+  #root {
+    padding: 1rem;
+  }
 
   .Main {
     flex-direction: column;
@@ -102,6 +106,7 @@ button:focus {
   }
 
   textarea {
+    width: 19em;
     height: 15em;
   }
 }
